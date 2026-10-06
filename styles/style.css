@@ -1,0 +1,40 @@
+html {
+  /* px signifie "pixels". La taille de police de base est maintenant de 10
+     pixels de haut */
+  font-size: 10px;
+  /* Remplacez EMPLACEMENT par la valeur de la propriété font-family obtenue
+     depuis Google Fonts */
+  font-family: "Nunito", sans-serif;
+  background-color: #288f83;
+  color: #042c27;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #288f83;
+  text-shadow: 3px 3px 1px black;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
